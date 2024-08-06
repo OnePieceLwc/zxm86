@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>百度搜索</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .title_1 {
+      color: red;
+      text-align: center;
+      margin-top: 50px;
+
+    }
+
+    .title_img {
+      width: 150px;
+      margin-left: 700px;
+    }
+
+    .search_section {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .search_input1 {
+      position: relative;
+      width: 100%;
+      max-width: 500px;
+
+    }
+
+    .search_input {
+      width: 500px;
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      font-size: 30px;
+      outline: none;
+    }
+
+    .search_button {
+      position: absolute;
+      right: 0;
+      top: 0;
+      height: 50px;
+      width: 100px;
+      border: none;
+      border-radius: 0 10px 10px 0;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+
+    .baidu_hot {
+      margin-top: 30px;
+      margin-left: 500px;
+      color: blue;
+    }
+
+    .hot_list {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      max-width: 500px;
+
+    }
+
+    .hot_list li {
+      margin-top: 10px;
+    }
+
+    .hot_list img {
+      /* 图片大小 */
+      width: 100px;
+      margin-left: 10px;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+      transition: color 0.3s;
+    }
+
+    a:hover {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 class="title_1">百度</h1>
+    <img class="title_img" src="https://search-operate.cdn.bcebos.com/e8cbce1d53432a6950071bf26b640e2b.gif" alt="">
+  </header>
+  <main>
+    <section class="search_section">
+      <!-- 搜索框和搜索按钮 -->
+      <form>
+        <div class="search_input1">
+          <input type="text" placeholder="请输入搜索内容" class="search_input">
+          <button type="submit" class="search_button">搜索</button>
+        </div>
+
+      </form>
+    </section>
+    <section class="hot_searches">
+      <div class="baidu_hot">
+        百度热搜
+      </div>
+      <span>
+        <ol class="hot_list">
+          <a
+            href="https://www.baidu.com/s?wd=%E6%8F%90%E9%AB%98%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%AE%89%E5%85%A8%E6%B2%BB%E7%90%86%E6%B0%B4%E5%B9%B3&sa=fyb_n_homepage&rsv_dl=fyb_n_homepage&from=super&cl=3&tn=baidutop10&fr=top1000&rsv_idx=2&hisfilter=1">
+            <li>
+              提高人工智能安全治理
+              <div>
+                <img
+                  src="https://gips0.baidu.com/it/u=4031139811,1534323088&fm=3028&app=3028&size=w931&q=75&n=0&f=PNG&fmt=auto&maxorilen2heic=2000000">
+                <img
+                  src="https://pics2.baidu.com/feed/7aec54e736d12f2e9a40d4c8835d916c8435687a.jpeg@f_auto?token=9f8e19b56e4fecad855e99459cf3540a">
+                <img
+                  src="https://gips0.baidu.com/it/u=4031139811,1534323088&fm=3028&app=3028&size=w931&q=75&n=0&f=PNG&fmt=auto&maxorilen2heic=2000000">
+                <img
+                  src="https://pics2.baidu.com/feed/7aec54e736d12f2e9a40d4c8835d916c8435687a.jpeg@f_auto?token=9f8e19b56e4fecad855e99459cf3540a">
+
+                <div>坚持以人为本、智能向善，就要让人民群众共享人工智能发展红利，不断提升人民群众获得感、幸福感、安全感，防范滥用人工智能技术给社会带来危害，引导人工智能向善而行.</div>
+              </div>
+            </li>
+          </a>
+          <a
+            href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E9%80%89%E6%89%8B%E5%85%B4%E5%A5%8B%E5%89%82%E9%98%B3%E6%80%A7+%E4%B8%AD%E6%96%B9%E5%8F%91%E5%B8%83%E5%A3%B0%E6%98%8E&sa=fyb_n_homepage&rsv_dl=fyb_n_homepage&from=super&cl=3&tn=baidutop10&fr=top1000&rsv_idx=2&hisfilter=1">
+            <li>美国选手兴奋剂阳性 中方发布声明</li>
+            <img
+              src="https://gips2.baidu.com/it/u=3820684806,3889778963&fm=3028&app=3028&size=w931&q=75&n=0&f=JPEG&fmt=auto&maxorilen2heic=2000000">
+            <img
+              src="https://pics7.baidu.com/feed/4d086e061d950a7b8eb03535d3b10cd7f3d3c92d.jpeg@f_auto?token=c1d00f42c9f35dd95d11618eda735c60">
+            <img
+              src="https://gips2.baidu.com/it/u=3820684806,3889778963&fm=3028&app=3028&size=w931&q=75&n=0&f=JPEG&fmt=auto&maxorilen2heic=2000000">
+            <img
+              src="https://pics7.baidu.com/feed/4d086e061d950a7b8eb03535d3b10cd7f3d3c92d.jpeg@f_auto?token=c1d00f42c9f35dd95d11618eda735c60">
+
+            <div>新京报讯 8月6日，中国反兴奋剂中心发布关于美国奥运选手埃里扬·奈顿类固醇阳性的声明。</div>
+          </a>
+        </ol>
+      </span>
+    </section>
+  </main>
+</body>
+
+</html>
